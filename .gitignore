@@ -1,23 +1,30 @@
-### AL ###
-#Template for AL projects for Dynamics 365 Business Central
-#launch.json folder
-.vscode/
-#Cache folder
-.alcache/
-#Symbols folder
-.alpackages/
-#Snapshots folder
-.snapshots/
-#Testing Output folder
-.output/
-#Extension App-file
-*.app
-#Rapid Application Development File
-rad.json
-#Translation Base-file
-*.g.xlf
-#License-files
-*.bclicense
-*.flf
-#Test results file
-TestResults.xml
+# Virtual environments
+.venv/
+.venv_tf/
+venv/
+ENV/
+
+# Large model files and weights (some exceed GitHub's 100MB limit)
+*.pth
+*.keras
+*.h5
+*.npy
+
+# Large dataset and archive directories
+archive/
+dataset/
+output_images/
+
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
